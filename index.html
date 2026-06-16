@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Sabrina Kocinski</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        .foto-espaco {
+            width: 150px;
+            height: 150px;
+            background-color: #e0e0e0;
+            border: 2px dashed #888;
+            border-radius: 50%;
+            margin: 0 auto 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-size: 14px;
+        }
+        .foto-espaco img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            display: none; /* Escondido até que uma imagem seja adicionada */
+        }
+        h1 {
+            font-size: 24px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .info-group {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+        .info-label {
+            font-weight: bold;
+            color: #27ae60;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+        .info-valor {
+            font-size: 18px;
+            margin-top: 5px;
+            color: #555;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #eee;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
 
+    <div class="card">
+        <div class="foto-espaco">
+            <img src="#" alt="Foto de Sabrina" id="imagem1">
+            <span>[ Imagem 1 ]</span>
+        </div>
+
+        <h1>Perfil Estudantil</h1>
+        
+        <hr>
+
+        <div class="info-group">
+            <div class="info-label">Nome:</div>
+            <div class="info-valor">Sabrina Kocinski</div>
+        </div>
+
+        <div class="info-group">
+            <div class="info-label">Série:</div>
+            <div class="info-valor">1º Ano</div>
+        </div>
+
+        <div class="info-group">
+            <div class="info-label">Hobbie:</div>
+            <div class="info-valor">Ir pra roça</div>
+        </div>
+
+        <div class="info-group">
+            <div class="info-label">Futura Profissão:</div>
+            <div class="info-valor">Agronomia</div>
+        </div>
+    </div>
+
+</body>
+</html>
